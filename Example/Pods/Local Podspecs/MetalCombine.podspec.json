@@ -1,0 +1,22 @@
+{
+  "name": "MetalCombine",
+  "version": "0.1.0",
+  "summary": "A short description of MetalCombine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/akiotakeis/MetalCombine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "akiotakeis": "akiotakeis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/akiotakeis/MetalCombine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MetalCombine/Classes/**/*"
+}

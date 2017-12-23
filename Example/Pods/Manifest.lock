@@ -1,0 +1,16 @@
+PODS:
+  - MetalCombine (0.1.0)
+
+DEPENDENCIES:
+  - MetalCombine (from `../`)
+
+EXTERNAL SOURCES:
+  MetalCombine:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MetalCombine: 5478421115c72cf1168853c6c8285a7b5539c79b
+
+PODFILE CHECKSUM: 8958bff53a49ecf766e7e1eeaf94d5660dd49129
+
+COCOAPODS: 1.3.1
