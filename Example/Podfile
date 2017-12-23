@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MetalCombine_Example' do
+  pod 'MetalCombine', :path => '../'
+
+  target 'MetalCombine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
