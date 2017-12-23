@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import MetalCombine
+import Metal
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var combinedIv: UIImageView!
+    @IBOutlet weak var imageSizeLb: UILabel!
+    
+    @IBAction func onVideoButtonPressed(_ sender: Any) {
+        
+        self.combinedIv.image = nil
+        self.imageSizeLb.text = ""
+        
+        MetalCombine.shared.combineVideoFrames(viewController: self) { (combinedImage, duration) in
+            if let image = combinedImage, let duration = duration {
+                self.imageSizeLb.text = "\(image.size) : \(duration)"
+                self.combinedIv.image = image
+            }
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-

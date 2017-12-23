@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035EDBD024AA7898664C56C3E8024C89 /* ATMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E075C2D41F4ED37D133E40F919F949 /* ATMetal.swift */; };
+		0E7277E2C75C7B0EBB1F8797F0776F9A /* ATKernels.metal in Sources */ = {isa = PBXBuildFile; fileRef = 62297EE4DEB088BC1119295AD8F426F1 /* ATKernels.metal */; };
+		3E6C03F7F363D342C0943C2F6900C646 /* MetalCombine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CC39B78EDCF3A5AE12EC5392F5FB0 /* MetalCombine-dummy.m */; };
+		4D32DB8A64D7F57F6154BE16CCB9D2B6 /* Pods-MetalCombine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F842857FB7A30A625E3D394B7C966B /* Pods-MetalCombine_Example-dummy.m */; };
+		6484FD0CF7DDDA997A3FF4B0302C1F03 /* Pods-MetalCombine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F20900C985D54F1C9D3907A85C44538 /* Pods-MetalCombine_Tests-dummy.m */; };
+		733F8454E52CA6BDF57CA95964EA9725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		864AB5AD3E32FE9809B8CF83F537AFB9 /* MetalCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1DBFD78DAC82FF325F19BA0F69908 /* MetalCombine.swift */; };
+		9324B8A3876F1B00801B6C30CFFE3EFD /* MetalCombine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F7876345FD73942D09A7A3D29560F9 /* MetalCombine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E817889E885F8999D571F6DA9290D6 /* ATKernels.metallib in Resources */ = {isa = PBXBuildFile; fileRef = C3484C805CAA2706F50D0844C4F36972 /* ATKernels.metallib */; };
+		A0499C5D66F6914E770AFB95F3058951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C404AD97B54B7A8669DCF5ED862CC21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DFE9B59BFEB618A5EDA4C87FE6E67AF2 /* Pods-MetalCombine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 959D416041BD77A52795145014DDFE81 /* Pods-MetalCombine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E046F481A932A5B285E8C076F917AFEA /* MetalCombine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC883F97ABF0DE45BED929137006950 /* MetalCombine.bundle */; };
+		EA3E4A371795C3881FDAB02C0385C170 /* Pods-MetalCombine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9627AE37219729E8B7E99575C7FAFF89 /* Pods-MetalCombine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF8AD9FB7D5D829AB9B984F57038602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ABED48D4564C6AE64F2380D2313D329;
+			remoteInfo = "MetalCombine-MetalCombine";
+		};
+		E3E5C7443C58C2BE494C59E858756F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ACA555251DDDF0A0FEB05BA5ED593AA;
+			remoteInfo = MetalCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MetalCombine.xcconfig; sourceTree = "<group>"; };
+		01F7876345FD73942D09A7A3D29560F9 /* MetalCombine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetalCombine-umbrella.h"; sourceTree = "<group>"; };
+		0E0AEF8DCFDE133411E4B75B219DE512 /* Pods-MetalCombine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalCombine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10215560BBD4A8CBDFD57B6C6E54B2DD /* MetalCombine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MetalCombine.framework; path = MetalCombine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA45ACEAA2800BF0DC54BEC56D0F21 /* Pods-MetalCombine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MetalCombine_Tests.modulemap"; sourceTree = "<group>"; };
+		1A0DE9CB5B457A8ED6074F98F33E8721 /* Pods-MetalCombine_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalCombine_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1C97CE6F807D1CC2E0E3127D344CD274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8F9FB1E3C38B25758501EC0501DF93 /* Pods-MetalCombine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalCombine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2BB418F2925C162B51796CAE683273AD /* Pods_MetalCombine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MetalCombine_Example.framework; path = "Pods-MetalCombine_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F37687F1FCFAB71C92470F660DC7570 /* Pods-MetalCombine_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalCombine_Example-resources.sh"; sourceTree = "<group>"; };
+		31DF975CE393BB96A45E7603DCB274AE /* Pods-MetalCombine_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalCombine_Tests-resources.sh"; sourceTree = "<group>"; };
+		4F20900C985D54F1C9D3907A85C44538 /* Pods-MetalCombine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalCombine_Tests-dummy.m"; sourceTree = "<group>"; };
+		5080A443EE7A2EE83C82AE025E78AFD0 /* Pods-MetalCombine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MetalCombine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5EB1D5217A8CA20E65E0D97FEA8EB6F7 /* MetalCombine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MetalCombine.modulemap; sourceTree = "<group>"; };
+		5F13635D6CF06D53C4AB45A802048FE1 /* Pods-MetalCombine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalCombine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		62297EE4DEB088BC1119295AD8F426F1 /* ATKernels.metal */ = {isa = PBXFileReference; includeInIndex = 1; name = ATKernels.metal; path = MetalCombine/Classes/ATKernels.metal; sourceTree = "<group>"; };
+		6488E2A3B55C6FC82EF8E837436B842D /* MetalCombine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MetalCombine-prefix.pch"; sourceTree = "<group>"; };
+		65E1DBFD78DAC82FF325F19BA0F69908 /* MetalCombine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetalCombine.swift; path = MetalCombine/Classes/MetalCombine.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69846BB5FA0FE059EB5717BFD97F521B /* Pods-MetalCombine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalCombine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		759DE94E3631C0A2B94E10B59283D095 /* Pods-MetalCombine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MetalCombine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CD912D9C80D02B6B4B4F39846F926AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F9C1B284C583A895B37110D9A83926D /* ResourceBundle-MetalCombine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MetalCombine-Info.plist"; sourceTree = "<group>"; };
+		8A85B7D886D2DA637C1B439C7B98DCBF /* Pods-MetalCombine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MetalCombine_Example.modulemap"; sourceTree = "<group>"; };
+		8EC883F97ABF0DE45BED929137006950 /* MetalCombine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MetalCombine.bundle; path = MetalCombine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4ED47F5CB9C5904E4754B3C97DE24E /* Pods-MetalCombine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MetalCombine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959D416041BD77A52795145014DDFE81 /* Pods-MetalCombine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetalCombine_Example-umbrella.h"; sourceTree = "<group>"; };
+		9627AE37219729E8B7E99575C7FAFF89 /* Pods-MetalCombine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MetalCombine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9C9CC39B78EDCF3A5AE12EC5392F5FB0 /* MetalCombine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MetalCombine-dummy.m"; sourceTree = "<group>"; };
+		A6F842857FB7A30A625E3D394B7C966B /* Pods-MetalCombine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MetalCombine_Example-dummy.m"; sourceTree = "<group>"; };
+		C0E075C2D41F4ED37D133E40F919F949 /* ATMetal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMetal.swift; path = MetalCombine/Classes/ATMetal.swift; sourceTree = "<group>"; };
+		C3484C805CAA2706F50D0844C4F36972 /* ATKernels.metallib */ = {isa = PBXFileReference; includeInIndex = 1; name = ATKernels.metallib; path = MetalCombine/Assets/ATKernels.metallib; sourceTree = "<group>"; };
+		C4B9E99DE64B58D1E0415EB90438EE67 /* Pods-MetalCombine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalCombine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC4DB5E15E1275EC047635A8B08A20EE /* Pods-MetalCombine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MetalCombine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1582F440EFA858D41252B521660E639 /* Pods_MetalCombine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MetalCombine_Tests.framework; path = "Pods-MetalCombine_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8749EC9A60C6931255D1123C05B7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8C219B1F82E96DE901FC2E902E394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41ADE0DCCB0EF26BF5911BA8F6E6E80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C404AD97B54B7A8669DCF5ED862CC21F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98817AEF2835415BF8D143E1DAA59B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733F8454E52CA6BDF57CA95964EA9725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E66EAB6F298517CFEF9220F345E195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0499C5D66F6914E770AFB95F3058951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29689A56840A110739530A941A8EC147 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C97CE6F807D1CC2E0E3127D344CD274 /* Info.plist */,
+				5EB1D5217A8CA20E65E0D97FEA8EB6F7 /* MetalCombine.modulemap */,
+				00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */,
+				9C9CC39B78EDCF3A5AE12EC5392F5FB0 /* MetalCombine-dummy.m */,
+				6488E2A3B55C6FC82EF8E837436B842D /* MetalCombine-prefix.pch */,
+				01F7876345FD73942D09A7A3D29560F9 /* MetalCombine-umbrella.h */,
+				7F9C1B284C583A895B37110D9A83926D /* ResourceBundle-MetalCombine-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MetalCombine";
+			sourceTree = "<group>";
+		};
+		6A9F22170AE6FE37DEEB64A71DA8A4FA /* Pods-MetalCombine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE8749EC9A60C6931255D1123C05B7B4 /* Info.plist */,
+				8A85B7D886D2DA637C1B439C7B98DCBF /* Pods-MetalCombine_Example.modulemap */,
+				0E0AEF8DCFDE133411E4B75B219DE512 /* Pods-MetalCombine_Example-acknowledgements.markdown */,
+				C4B9E99DE64B58D1E0415EB90438EE67 /* Pods-MetalCombine_Example-acknowledgements.plist */,
+				A6F842857FB7A30A625E3D394B7C966B /* Pods-MetalCombine_Example-dummy.m */,
+				5080A443EE7A2EE83C82AE025E78AFD0 /* Pods-MetalCombine_Example-frameworks.sh */,
+				2F37687F1FCFAB71C92470F660DC7570 /* Pods-MetalCombine_Example-resources.sh */,
+				959D416041BD77A52795145014DDFE81 /* Pods-MetalCombine_Example-umbrella.h */,
+				5F13635D6CF06D53C4AB45A802048FE1 /* Pods-MetalCombine_Example.debug.xcconfig */,
+				69846BB5FA0FE059EB5717BFD97F521B /* Pods-MetalCombine_Example.release.xcconfig */,
+			);
+			name = "Pods-MetalCombine_Example";
+			path = "Target Support Files/Pods-MetalCombine_Example";
+			sourceTree = "<group>";
+		};
+		6F07A37B88EFE4C66C309FC61A17E3D5 /* Pods-MetalCombine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CD912D9C80D02B6B4B4F39846F926AA /* Info.plist */,
+				18BA45ACEAA2800BF0DC54BEC56D0F21 /* Pods-MetalCombine_Tests.modulemap */,
+				759DE94E3631C0A2B94E10B59283D095 /* Pods-MetalCombine_Tests-acknowledgements.markdown */,
+				CC4DB5E15E1275EC047635A8B08A20EE /* Pods-MetalCombine_Tests-acknowledgements.plist */,
+				4F20900C985D54F1C9D3907A85C44538 /* Pods-MetalCombine_Tests-dummy.m */,
+				1A0DE9CB5B457A8ED6074F98F33E8721 /* Pods-MetalCombine_Tests-frameworks.sh */,
+				31DF975CE393BB96A45E7603DCB274AE /* Pods-MetalCombine_Tests-resources.sh */,
+				9627AE37219729E8B7E99575C7FAFF89 /* Pods-MetalCombine_Tests-umbrella.h */,
+				8F4ED47F5CB9C5904E4754B3C97DE24E /* Pods-MetalCombine_Tests.debug.xcconfig */,
+				1D8F9FB1E3C38B25758501EC0501DF93 /* Pods-MetalCombine_Tests.release.xcconfig */,
+			);
+			name = "Pods-MetalCombine_Tests";
+			path = "Target Support Files/Pods-MetalCombine_Tests";
+			sourceTree = "<group>";
+		};
+		7980871CC9B647F9174D0962E986F4BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3484C805CAA2706F50D0844C4F36972 /* ATKernels.metallib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				866C1007DFE62CDC0A4E4BCC80948E66 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7F1AF862A0C5652E09C748485E6A9780 /* Products */,
+				D9B47BB73BC204F9BF64697D8A3102CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1AF862A0C5652E09C748485E6A9780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC883F97ABF0DE45BED929137006950 /* MetalCombine.bundle */,
+				10215560BBD4A8CBDFD57B6C6E54B2DD /* MetalCombine.framework */,
+				2BB418F2925C162B51796CAE683273AD /* Pods_MetalCombine_Example.framework */,
+				D1582F440EFA858D41252B521660E639 /* Pods_MetalCombine_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866C1007DFE62CDC0A4E4BCC80948E66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3733D5441701AAA95207BE58987C2E0 /* MetalCombine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9B47BB73BC204F9BF64697D8A3102CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A9F22170AE6FE37DEEB64A71DA8A4FA /* Pods-MetalCombine_Example */,
+				6F07A37B88EFE4C66C309FC61A17E3D5 /* Pods-MetalCombine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F3733D5441701AAA95207BE58987C2E0 /* MetalCombine */ = {
+			isa = PBXGroup;
+			children = (
+				62297EE4DEB088BC1119295AD8F426F1 /* ATKernels.metal */,
+				C0E075C2D41F4ED37D133E40F919F949 /* ATMetal.swift */,
+				65E1DBFD78DAC82FF325F19BA0F69908 /* MetalCombine.swift */,
+				7980871CC9B647F9174D0962E986F4BA /* Resources */,
+				29689A56840A110739530A941A8EC147 /* Support Files */,
+			);
+			name = MetalCombine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F4B6A94119DE2F773169199431015FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3E4A371795C3881FDAB02C0385C170 /* Pods-MetalCombine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF71763B5BC852CCB8E139E32C41459C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9324B8A3876F1B00801B6C30CFFE3EFD /* MetalCombine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D552FE9A6DA4F32EBF48B1F1DA025A99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE9B59BFEB618A5EDA4C87FE6E67AF2 /* Pods-MetalCombine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6ACA555251DDDF0A0FEB05BA5ED593AA /* MetalCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7B80EA95D3A4E063BE1E2BC1900200 /* Build configuration list for PBXNativeTarget "MetalCombine" */;
+			buildPhases = (
+				5F1370EC6755270870E98D9C45D90919 /* Sources */,
+				C98817AEF2835415BF8D143E1DAA59B0 /* Frameworks */,
+				FAF5427839557A13DD9E9239E0D3B8CF /* Resources */,
+				AF71763B5BC852CCB8E139E32C41459C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093692E3FBC925DDD35997E006904182 /* PBXTargetDependency */,
+			);
+			name = MetalCombine;
+			productName = MetalCombine;
+			productReference = 10215560BBD4A8CBDFD57B6C6E54B2DD /* MetalCombine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B822997BB916BBAC38227C53684ADE6 /* Pods-MetalCombine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C3B9FDE0B9A44CFE541885ACE51F27E /* Build configuration list for PBXNativeTarget "Pods-MetalCombine_Example" */;
+			buildPhases = (
+				7F5E32E60E28FE031C4B3469C928B6A5 /* Sources */,
+				41ADE0DCCB0EF26BF5911BA8F6E6E80B /* Frameworks */,
+				D552FE9A6DA4F32EBF48B1F1DA025A99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEDC86513981EFC2B6BDDCEE6642472 /* PBXTargetDependency */,
+			);
+			name = "Pods-MetalCombine_Example";
+			productName = "Pods-MetalCombine_Example";
+			productReference = 2BB418F2925C162B51796CAE683273AD /* Pods_MetalCombine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9ABED48D4564C6AE64F2380D2313D329 /* MetalCombine-MetalCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E883E425AC2B6C16A47D77DC084FDE3 /* Build configuration list for PBXNativeTarget "MetalCombine-MetalCombine" */;
+			buildPhases = (
+				28C58CB3E1C86DC9F8EF485986CB4FB3 /* Sources */,
+				0A8C219B1F82E96DE901FC2E902E394A /* Frameworks */,
+				BFBB5CDA48B5EB6D3C0B3FE0C82A17B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalCombine-MetalCombine";
+			productName = "MetalCombine-MetalCombine";
+			productReference = 8EC883F97ABF0DE45BED929137006950 /* MetalCombine.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C6D365AC3F1885C5266471E61E298DE4 /* Pods-MetalCombine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D798A840AAB3CA51C951C4C1F387C35B /* Build configuration list for PBXNativeTarget "Pods-MetalCombine_Tests" */;
+			buildPhases = (
+				32651184BA142C8B0EAC226D832D868B /* Sources */,
+				F3E66EAB6F298517CFEF9220F345E195 /* Frameworks */,
+				8F4B6A94119DE2F773169199431015FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MetalCombine_Tests";
+			productName = "Pods-MetalCombine_Tests";
+			productReference = D1582F440EFA858D41252B521660E639 /* Pods_MetalCombine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F1AF862A0C5652E09C748485E6A9780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACA555251DDDF0A0FEB05BA5ED593AA /* MetalCombine */,
+				9ABED48D4564C6AE64F2380D2313D329 /* MetalCombine-MetalCombine */,
+				7B822997BB916BBAC38227C53684ADE6 /* Pods-MetalCombine_Example */,
+				C6D365AC3F1885C5266471E61E298DE4 /* Pods-MetalCombine_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBB5CDA48B5EB6D3C0B3FE0C82A17B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E817889E885F8999D571F6DA9290D6 /* ATKernels.metallib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF5427839557A13DD9E9239E0D3B8CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E046F481A932A5B285E8C076F917AFEA /* MetalCombine.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C58CB3E1C86DC9F8EF485986CB4FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32651184BA142C8B0EAC226D832D868B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6484FD0CF7DDDA997A3FF4B0302C1F03 /* Pods-MetalCombine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1370EC6755270870E98D9C45D90919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7277E2C75C7B0EBB1F8797F0776F9A /* ATKernels.metal in Sources */,
+				035EDBD024AA7898664C56C3E8024C89 /* ATMetal.swift in Sources */,
+				3E6C03F7F363D342C0943C2F6900C646 /* MetalCombine-dummy.m in Sources */,
+				864AB5AD3E32FE9809B8CF83F537AFB9 /* MetalCombine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5E32E60E28FE031C4B3469C928B6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D32DB8A64D7F57F6154BE16CCB9D2B6 /* Pods-MetalCombine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093692E3FBC925DDD35997E006904182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MetalCombine-MetalCombine";
+			target = 9ABED48D4564C6AE64F2380D2313D329 /* MetalCombine-MetalCombine */;
+			targetProxy = 4BF8AD9FB7D5D829AB9B984F57038602 /* PBXContainerItemProxy */;
+		};
+		9FEDC86513981EFC2B6BDDCEE6642472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MetalCombine;
+			target = 6ACA555251DDDF0A0FEB05BA5ED593AA /* MetalCombine */;
+			targetProxy = E3E5C7443C58C2BE494C59E858756F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F1F5D5BD50221BF2AE64B489199CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4ED47F5CB9C5904E4754B3C97DE24E /* Pods-MetalCombine_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalCombine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalCombine_Tests/Pods-MetalCombine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MetalCombine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AF611D605624018D28C1C0070DA7717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8F9FB1E3C38B25758501EC0501DF93 /* Pods-MetalCombine_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalCombine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalCombine_Tests/Pods-MetalCombine_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MetalCombine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DA222A4D99574D97F78F839CEE63601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetalCombine/MetalCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetalCombine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MetalCombine/MetalCombine.modulemap";
+				PRODUCT_NAME = MetalCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8543380A831B7C261153D06C006E336F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MetalCombine/MetalCombine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MetalCombine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MetalCombine/MetalCombine.modulemap";
+				PRODUCT_NAME = MetalCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		918FBDE2AD124AD4128B37CE25126113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69846BB5FA0FE059EB5717BFD97F521B /* Pods-MetalCombine_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalCombine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalCombine_Example/Pods-MetalCombine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MetalCombine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA52A3B633D0CE45EE73A7BFB0635AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F13635D6CF06D53C4AB45A802048FE1 /* Pods-MetalCombine_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MetalCombine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MetalCombine_Example/Pods-MetalCombine_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MetalCombine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC7E917F1316979F58807DCD3597AE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MetalCombine";
+				INFOPLIST_FILE = "Target Support Files/MetalCombine/ResourceBundle-MetalCombine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MetalCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F4CDF90CE9D5755843087E038D459658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA53A3BC2B55350352E7F4A3544DA1 /* MetalCombine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MetalCombine";
+				INFOPLIST_FILE = "Target Support Files/MetalCombine/ResourceBundle-MetalCombine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MetalCombine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C3B9FDE0B9A44CFE541885ACE51F27E /* Build configuration list for PBXNativeTarget "Pods-MetalCombine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA52A3B633D0CE45EE73A7BFB0635AB3 /* Debug */,
+				918FBDE2AD124AD4128B37CE25126113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E883E425AC2B6C16A47D77DC084FDE3 /* Build configuration list for PBXNativeTarget "MetalCombine-MetalCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7E917F1316979F58807DCD3597AE13 /* Debug */,
+				F4CDF90CE9D5755843087E038D459658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7B80EA95D3A4E063BE1E2BC1900200 /* Build configuration list for PBXNativeTarget "MetalCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8543380A831B7C261153D06C006E336F /* Debug */,
+				4DA222A4D99574D97F78F839CEE63601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D798A840AAB3CA51C951C4C1F387C35B /* Build configuration list for PBXNativeTarget "Pods-MetalCombine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F1F5D5BD50221BF2AE64B489199CAD /* Debug */,
+				4AF611D605624018D28C1C0070DA7717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

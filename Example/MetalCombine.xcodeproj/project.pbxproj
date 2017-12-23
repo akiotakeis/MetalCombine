@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020C0E5566C412C5AEEC97FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		020C0E5566C412C5AEEC97FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		312256821971A778A2A4A943 /* Pods_MetalCombine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalCombine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B46B95C6E5357F4AAF13A19 /* Pods_MetalCombine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetalCombine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MetalCombine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalCombine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,8 +42,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A971175C54DD259F62A1AD9B /* Pods-MetalCombine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalCombine_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetalCombine_Tests/Pods-MetalCombine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C880FA3B9C58B8B5987FE7B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DAC4171FFADE623ABA97316A /* MetalCombine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MetalCombine.podspec; path = ../MetalCombine.podspec; sourceTree = "<group>"; };
+		C880FA3B9C58B8B5987FE7B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAC4171FFADE623ABA97316A /* MetalCombine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MetalCombine.podspec; path = ../MetalCombine.podspec; sourceTree = "<group>"; };
 		DBE5C3AC0B4C4DF1695A188E /* Pods-MetalCombine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalCombine_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetalCombine_Tests/Pods-MetalCombine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8788BC05BD10343E5D3D059 /* Pods-MetalCombine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalCombine_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MetalCombine_Example/Pods-MetalCombine_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFE33B9611D506E181B03CB5 /* Pods-MetalCombine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalCombine_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MetalCombine_Example/Pods-MetalCombine_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 66K5CYK87N;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 66K5CYK87N;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -458,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -517,10 +519,12 @@
 			baseConfigurationReference = E8788BC05BD10343E5D3D059 /* Pods-MetalCombine_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66K5CYK87N;
 				INFOPLIST_FILE = MetalCombine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwellant.csite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -532,10 +536,12 @@
 			baseConfigurationReference = FFE33B9611D506E181B03CB5 /* Pods-MetalCombine_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 66K5CYK87N;
 				INFOPLIST_FILE = MetalCombine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwellant.csite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -546,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A971175C54DD259F62A1AD9B /* Pods-MetalCombine_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 66K5CYK87N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -560,6 +567,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalCombine_Example.app/MetalCombine_Example";
 			};
 			name = Debug;
 		};
@@ -567,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBE5C3AC0B4C4DF1695A188E /* Pods-MetalCombine_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 66K5CYK87N;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -577,6 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalCombine_Example.app/MetalCombine_Example";
 			};
 			name = Release;
 		};
