@@ -8,7 +8,6 @@
 
 import UIKit
 import MetalCombine
-import Metal
 
 class ViewController: UIViewController {
 
